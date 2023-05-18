@@ -125,7 +125,9 @@ A atribuição `a = 2 `ocorre posteriormente ao console.log, por este motivo, o 
 
 ### 7. Qual a diferença entre magin e padding no CSS?
 <b>Resp:</b>
-<img src="./margin-padding.png" alt="margin and padding">
+<div>
+  <img src="./margin-padding.png" alt="margin and padding">
+</div>
 Como é possível ver na imagem, o padding define o espaçamento entre o elemento e as bordas, enquanto a margin define o espaçamento entre o elemento e os elementos vizinhos, afetando a área ao redor do elemento.
 
 ### 8. Escreva uma função em JavaScript que receba uma string como parâmetro e retorne a mesma string sem as vogais.

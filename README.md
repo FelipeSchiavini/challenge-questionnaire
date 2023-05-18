@@ -21,17 +21,17 @@
 
 ```
   //ex. 
-  interface GetDataOnDatabaseWithAsyncAwaitResponse {
+  interface GetDataOnDatabaseResponse {
     ...
   }
 
-  const data = getDataOnDatabaseWithAsyncAwait = async (): Promise<GetDataOnDatabaseWithAsyncAwaitResponse> => {
+  const data = getDataOnDatabase = async (): Promise<GetDataOnDatabaseWithAsyncAwaitResponse> => {
     try{
       const response = await fetch('https://url-da-api.com/')
       const data = await response.json()
       return data
     } catch(error){
-      console.log("ERROR: getDataOnDatabaseWithAsyncAwait ~ data ~ error", error)
+      console.log("ERROR: getDataOnDatabase ~ data ~ error", error)
     }
   }
 

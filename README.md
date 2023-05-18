@@ -56,8 +56,9 @@ a saída do código é:
 5
 ```
 - <b>Motivo:</b>
-como a variável `i` dentro do `for` foi instanciada com `var`, que pussui escopo de global, durante o `for` são criadas 5 funções `setTimeOut` que são programadas para ser executadas após 1000ms(1s).
-No momento em que a função é executada o valor da variável `i` é `5` e por esse motivo o console.log é executado 5x com o mesmo valor `(5)`.
+Durante o `for` são criadas 5 funções `setTimeOut` que são programadas para ser executadas após 1000ms(1s).
+Como a variável `i` dentro do `for` foi instanciada com `var`, que pussui escopo de global,
+no momento em que a função é executada o valor da variável `i` é `5` e por esse motivo o console.log é executado 5x com o mesmo valor `(5)`.
 Esse comportamento seria alterado se a variável fosse instanciada com escopo de bloco utilizando o `let`.
 
 ### 3. Defina com suas palavras o que é a internet.
